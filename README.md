@@ -5,10 +5,15 @@ Corepus-gen is built for compiling source sentences for parallel corpus construc
 
 In order to run corepus-gen you need the following:
 
-- A large source corpus with lots of sentences (like [Tatoeba](https://tatoeba.org))
-- A vocabulary set with words sorted with respect to their frequency
+- A large source corpus with lots of sentences (like [Tatoeba](https://tatoeba.org)), 
+- A vocabulary set with words sorted with respect to their frequency.
 
-And if you like you can also use a list of words to avoid.
+Optionally you can use the following:
+
+- A list of words to avoid,
+- A list of boy names to randomly replace with the name "Tom",
+- A list of girl names to randomly replace with the name "Mary", 
+- A list of sentence id's to exclude.
 
 ## Run
 

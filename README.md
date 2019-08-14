@@ -17,7 +17,7 @@ Optionally you can use the following:
 
 ## Run
 
-Follow the ipython notebook `corpus-generator.ipynb` filling in parameters like CORPUS_SIZE, REFERENCE_VOCAB_SIZE, MAX_TOKENS, CORPUS_ID etc. to your like.
+Follow the ipython notebook `corpus-generator.ipynb` filling in parameters like `CORPUS_SIZE`, `REFERENCE_VOCAB_SIZE`, `MAX_TOKENS`, `CORPUS_ID` etc. to your like.
 
 ## Example output
 
@@ -27,9 +27,7 @@ An example corpus of 10k sentences created with corepus-gen is placed under `tes
 
 * Files under `src` are taken from other sources with only structural modification. 
 	- `opus_en_50k.txt` is the most common 50k words in the [English OPUS corpus](http://opus.nlpl.eu/).
-	- `tatoeba_sentences_CC_EN.csv` contains English sentences in the Tatoeba corpus with CC license. 
-	- `tatoeba_sentences_CC0_EN.csv` contains English sentences in the Tatoeba corpus with CC0 license
+	- `tatoeba_sentences_CC_EN.csv` contains English sentences in the [Tatoeba corpus with CC license](https://tatoeba.org/eng/downloads). 
+	- `tatoeba_sentences_CC0_EN.csv` contains English sentences in the [Tatoeba corpus with CC0 license](https://tatoeba.org/eng/downloads).
 
-* `etc/avoidlist.txt` contains a subset of the bad words compiled by Google. [Source](https://github.com/RobertJGabriel/Google-profanity-words)
-
-
+* `etc/avoidlist.txt` contains a subset of the [bad words compiled by Google](https://github.com/RobertJGabriel/Google-profanity-words)

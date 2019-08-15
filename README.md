@@ -1,4 +1,13 @@
-# corepus-gen
+```
+                                                                                                   
+                                                                                                   
+.d8888b. .d8888b. 88d888b. .d8888b. 88d888b. dP    dP .d8888b.          .d8888b. .d8888b. 88d888b. 
+88'  `"" 88'  `88 88'  `88 88ooood8 88'  `88 88    88 Y8ooooo. 88888888 88'  `88 88ooood8 88'  `88 
+88.  ... 88.  .88 88       88.  ... 88.  .88 88.  .88       88          88.  .88 88.  ... 88    88 
+`88888P' `88888P' dP       `88888P' 88Y888P' `88888P' `88888P'          `8888P88 `88888P' dP    dP 
+                                    88                                       .88                   
+                                    dP                                   d8888P
+```
 Generate vocabulary restricted subsets from text corpora
 
 Corepus-gen is built for compiling source sentences for parallel corpus construction. You get to choose its size and the vocabulary set that you'd like it to cover. 

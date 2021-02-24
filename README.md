@@ -1,5 +1,14 @@
-# corepus-gen
-Build sentence collections that respect the most frequent vocabulary in a language
+```
+                                                                                                   
+                                                                                                   
+.d8888b. .d8888b. 88d888b. .d8888b. 88d888b. dP    dP .d8888b.          .d8888b. .d8888b. 88d888b. 
+88'  `"" 88'  `88 88'  `88 88ooood8 88'  `88 88    88 Y8ooooo. 88888888 88'  `88 88ooood8 88'  `88 
+88.  ... 88.  .88 88       88.  ... 88.  .88 88.  .88       88          88.  .88 88.  ... 88    88 
+`88888P' `88888P' dP       `88888P' 88Y888P' `88888P' `88888P'          `8888P88 `88888P' dP    dP 
+                                    88                                       .88                   
+                                    dP                                   d8888P
+```
+Generate vocabulary restricted subsets from text corpora
 
 Corepus-gen is built for compiling source sentences for parallel corpus construction. You get to choose its size and the vocabulary set that you'd like it to cover. 
 
@@ -21,7 +30,7 @@ Follow the ipython notebook `corpus-generator.ipynb` filling in parameters like 
 
 ## Example output
 
-An example corpus of 10k sentences created with corepus-gen is placed under `testcore` directory. Its vocabulary includes 96.18% of the the most frequent 5000 words in the English OPUS Corpus. 
+An example generated corpus of 10k sentences is placed under `testcore` directory. Its vocabulary includes 96.18% of the the most frequent 5000 words in the English OPUS Corpus. 
 
 ## References
 

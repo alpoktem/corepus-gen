@@ -268,7 +268,8 @@ part 119964
 elles 118978
 jours 118455
 grand 117213
-aujourd'hui 117159
+aujourd' 117159
+hui 117159
 venir 116762
 ami 116639
 demain 116541
